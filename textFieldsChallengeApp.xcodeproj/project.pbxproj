@@ -13,6 +13,7 @@
 		B80BA72C2605337900ACC3A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B80BA72A2605337900ACC3A8 /* Main.storyboard */; };
 		B80BA72E2605337B00ACC3A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B80BA72D2605337B00ACC3A8 /* Assets.xcassets */; };
 		B80BA7312605337B00ACC3A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B80BA72F2605337B00ACC3A8 /* LaunchScreen.storyboard */; };
+		B8CD2FFE26062746001CC975 /* ZipTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CD2FFD26062746001CC975 /* ZipTextFieldDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B80BA72D2605337B00ACC3A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B80BA7302605337B00ACC3A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B80BA7322605337B00ACC3A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8CD2FFD26062746001CC975 /* ZipTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipTextFieldDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		B80BA7232605337900ACC3A8 /* textFieldsChallengeApp */ = {
 			isa = PBXGroup;
 			children = (
+				B8CD2FFB26062702001CC975 /* Text Field Delegates */,
 				B80BA7242605337900ACC3A8 /* AppDelegate.swift */,
 				B80BA7262605337900ACC3A8 /* SceneDelegate.swift */,
 				B80BA7282605337900ACC3A8 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				B80BA7322605337B00ACC3A8 /* Info.plist */,
 			);
 			path = textFieldsChallengeApp;
+			sourceTree = "<group>";
+		};
+		B8CD2FFB26062702001CC975 /* Text Field Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				B8CD2FFD26062746001CC975 /* ZipTextFieldDelegate.swift */,
+			);
+			path = "Text Field Delegates";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8CD2FFE26062746001CC975 /* ZipTextFieldDelegate.swift in Sources */,
 				B80BA7292605337900ACC3A8 /* ViewController.swift in Sources */,
 				B80BA7252605337900ACC3A8 /* AppDelegate.swift in Sources */,
 				B80BA7272605337900ACC3A8 /* SceneDelegate.swift in Sources */,
