@@ -44,6 +44,9 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="RAD-Sw-r0x"/>
                                 </constraints>
+                                <connections>
+                                    <action selector="toggleTextField3:" destination="BYZ-38-t0r" eventType="valueChanged" id="uLz-wD-3HR"/>
+                                </connections>
                             </switch>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
