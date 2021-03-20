@@ -10,6 +10,7 @@ import UIKit
 
 class ZipTextFieldDelegate: NSObject, UITextFieldDelegate{
     
+    // MARK: Text Field Delegate Methods
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         
         var newText = textField.text! as NSString

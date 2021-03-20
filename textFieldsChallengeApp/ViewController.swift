@@ -17,6 +17,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     // MARK: Text Field Delegate objects
     let zipTextFieldDelegate = ZipTextFieldDelegate()
+    let cashTextFieldDelegate = CashTextFieldDelegate()
     
     // MARK: Life Cycle
     override func viewDidLoad() {
@@ -26,6 +27,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         // Set the three delegates
         self.textField1.delegate = zipTextFieldDelegate
+        self.textField2.delegate = cashTextFieldDelegate
         self.textField3.delegate = self
     }
     
