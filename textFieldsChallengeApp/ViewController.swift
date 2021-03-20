@@ -7,13 +7,24 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, UITextFieldDelegate {
+    @IBOutlet weak var textField1: UITextField!
+    @IBOutlet weak var textField2: UITextField!
+    @IBOutlet weak var textField3: UITextField!
+    @IBOutlet weak var textField3Switch: UISwitch!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        // Set the switch to be off
+        textField3Switch.isOn = false
+        
+        // Set the three delegates
+        self.textField3.delegate = self
     }
+    
+    
 
+    
 
 }
 
